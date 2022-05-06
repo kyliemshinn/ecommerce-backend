@@ -38,7 +38,7 @@ GIVEN a functional Express.js API
 
 ## Installation
 
-Node.js and MySQL must be installed on the user computer for this webapp to function. The user will need to then clone it down to their local computer. Once the files are cloned down, the user will need to run `npm install` to get all necessary packages for the program to run. The user then will need to run `npm run seed` and then `node server.js` in the terminal. The user will also need to creat their own .env file for the following:
+Node.js and MySQL must be installed on the user computer for this webapp to function. The user will need to then clone it down to their local computer. Once the files are cloned down, the user will need to run `npm install` to get all necessary packages for the program to run. The user then will need to run `npm run seed` and then `node server.js` in the terminal. The user will also need to create their own .env file for the following:
 
 ```
 DB_NAME=ecommerce_db
@@ -50,6 +50,9 @@ DB_USER=root
 
 For proper usage, the user must first follow all steps in the [Installation](#installation) section to get the app to run. Once the message `App listening on port 3001!` is presented in the terminal, the user will need to navigate to Insomnia to run the routes of the program. Please reference the demo video for a step by step tutorial on proper usage of Ecommerce Backend.
 
+[Video link](https://youtu.be/ZLaSNls4mbw) for indepth usage of the program.
+
+![ecommerce gif](./assets/ecommercegif.gif)
 
 ## Technologies Used
 
