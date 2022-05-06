@@ -41,7 +41,7 @@ GIVEN a functional Express.js API
 Node.js and MySQL must be installed on the user computer for this webapp to function. The user will need to then clone it down to their local computer. Once the files are cloned down, the user will need to run `npm install` to get all necessary packages for the program to run. The user then will need to run `npm run seed` and then `node server.js` in the terminal. The user will also need to creat their own .env file for the following:
 
 ```
-DB_NAME=library_db
+DB_NAME=ecommerce_db
 DB_PASSWORD=
 DB_USER=root
 ```

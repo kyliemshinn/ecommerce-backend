@@ -40,7 +40,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id,
     }
   })
-    res.json(dbData);
+  .then(dbData => res.json(dbData))
 });
 
 router.delete('/:id', (req, res) => {
@@ -50,7 +50,13 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  res.json(dbData);
+    .then(dbData => {
+      if (!dbData) {
+        res.status(404).json({ message: 'No category found.' });
+        return;
+      }
+      res.json(dbData);
+    })
 });
 
 module.exports = router;
